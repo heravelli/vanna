@@ -58,3 +58,5 @@ faiss-cpu = ["faiss-cpu"]
 faiss-gpu = ["faiss-gpu"]
 xinference-client = ["xinference-client"]
 oracle = ["oracledb", "chromadb<1.0.0"]
+databricks = ["databricks-sql-connector>=3.0.0", "databricks-sdk>=0.20.0"]
+
